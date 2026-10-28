@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Enat</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container navbar">
+        <a href="index.html" class="logo">Enat<span>.</span></a>
+
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="caregivers.html">Caregivers</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-banner">
+        <div class="container">
+            <span class="eyebrow">GET IN TOUCH</span>
+            <h1>Contact Enat</h1>
+            <p>
+                Have questions about elderly care? Send us a message
+                or use the contact information provided by your team.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container contact-layout">
+
+            <div class="contact-information">
+                <h2>We'd Love to Hear From You</h2>
+
+                <p>
+                    Reach out to discuss care options, ask questions,
+                    or learn more about our services.
+                </p>
+
+                <div class="contact-item">
+                    <div class="contact-icon">✉</div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>Replace with your team's email address</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">☎</div>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>Replace with your team's phone number</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">⌂</div>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Add your service area or office address</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-card">
+                <h2>Send Us a Message</h2>
+
+                <p class="form-intro">
+                    Complete the form below. Fields marked with * are required.
+                </p>
+
+                <div id="form-status" class="form-status" role="status"
+                     aria-live="polite" hidden></div>
+
+                <form id="contact-form">
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name"
+                                   placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email"
+                                   placeholder="you@example.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone"
+                                   placeholder="Enter your phone number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Choose a subject</option>
+                                <option value="personal-care">Personal Care</option>
+                                <option value="companionship">Companionship</option>
+                                <option value="daily-support">Daily Living Support</option>
+                                <option value="general-inquiry">General Inquiry</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message"
+                                  placeholder="Tell us how we can help..."
+                                  required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Submit Message
+                    </button>
+
+                    <p class="form-disclaimer">
+                        Demonstration form: submissions are not sent to a server
+                        or saved. 
+                    </p>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-content">
+        <div>
+            <a href="index.html" class="logo footer-logo">Enat<span>.</span></a>
+            <p>Compassionate elderly care built on dignity, kindness, and respect.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="caregivers.html">Caregivers</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="container copyright">
+        &copy; <span class="current-year"></span> Enat Elderly Care Service.
+        All rights reserved.
+    </div>
+</footer>
+
+</body>
+</html>
